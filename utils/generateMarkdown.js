@@ -14,7 +14,57 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-`;
+## Description
+
+${data.description}
+
+## Table of Contents
+
+* [License](#license)
+
+* [Installation](#installation)
+
+* [Tests](#tests)
+
+* [Usage](#usage)
+
+* [Contributing](#contributing)
+
+* [Questions](#questions)
+
+## License
+
+${data.license}
+
+## Installation
+
+To install dependencies use: 
+
+\`\`\`
+${data.dependencies}
+\`\`\`
+
+## Tests
+
+To test: 
+
+\`\`\`
+${data.tests}
+\`\`\`
+
+## Usage
+
+${data.repoUse}
+
+## Contributing
+
+${data.repoContribute}
+
+## Questions
+
+If you have any questions, please contact me at: ${data.email}
+  
+`
 }
 
-module.exports = generateMarkdown;
+module.exports = generateMarkdown; //this references back to the generateMarkdown in index.js

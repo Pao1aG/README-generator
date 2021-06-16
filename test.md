@@ -6,17 +6,19 @@ Text goes here
 
 ## Table of Contents
 
-* [Installation](#installation)
-
-* [Usage](#usage)
-
 * [License](#license)
 
-* [Contributing](#contributing)
+* [Installation](#installation)
 
 * [Tests](#tests)
 
-* [Questions](#questions)
+* [Usage](#usage)
+
+* [Contributing](#contributing)
+
+## License
+
+This project is licensed under MIT license
 
 ## Installation
 
@@ -25,22 +27,18 @@ To install, do the following:
 ```
 something
 ```
+## Tests
+Idk
 
 ## Usage
 
 How to use it here
 
-## License
-
-This project is licensed under MIT license
-
-## Contributing 
+## Contributing
 
 If you want to contribute I guess
 
-## Tests
-Idk
-
 ## Questions
 
-If you have questions reach me here....
+If you have any questions, please contact me at: 
+

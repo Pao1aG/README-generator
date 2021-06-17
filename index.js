@@ -25,7 +25,7 @@ const questions = [
 
     {
         type: "input",
-        message: "Please write a short description of your project",
+        message: "Please write a short description of your project.",
         name: "description"
     },
 
@@ -68,7 +68,7 @@ function writeToFile() {
     .prompt(questions)
     .then(function(user) {
         console.log("USER:", user); //success
-        fs.writeFile("README.md", generateMarkdown(user), function(err) { //this function will create this file in this directory (if it doesn't already exist), and write content inside of generateMarkdown
+        fs.writeFile("./build/README.md", generateMarkdown(user), function(err) { //this function will create this file in this directory (if it doesn't already exist), and write content inside of generateMarkdown
             console.log("File Written");
         });
         console.log(user.license); //Registers correct license
@@ -76,12 +76,11 @@ function writeToFile() {
     
 };
 
-writeToFile();
+// writeToFile();
  
 // TODO: Create a function to initialize app----------------------------
 function init() {
-
+    writeToFile(inquirer);
 }
-
 // Function call to initialize app-----------------------
-// init();
+init();

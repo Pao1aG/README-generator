@@ -1,10 +1,10 @@
-# README Creator
+# project
   
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Description
 
-sdkfnaklsfjaklsdjflskajfklsadjfklasdjfklasdjfkljd
+description
 
 ## Table of Contents
 
@@ -22,17 +22,17 @@ sdkfnaklsfjaklsdjflskajfklsadjfklasdjfklasdjfkljd
 
 ## License
 
-Apache 2.0
+MIT
 
-This project is licensed under the Apache 2.0 License. To learn more visit  
->[Apache 2.0 License](https://github.com/moby/moby/blob/master/LICENSE)
+This project is licensed under the MIT License. To learn more visit  
+> [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 ## Installation
 
 To install dependencies use: 
 
 ```
-instasll
+npm i inquirer
 ```
 
 ## Tests
@@ -40,16 +40,16 @@ instasll
 To test: 
 
 ```
-test
+tests
 ```
 
 ## Usage
 
-use
+oasosaoasoas
 
 ## Contributing
 
-contr
+slksdjlksdjfsjdf
 
 ## Questions
 

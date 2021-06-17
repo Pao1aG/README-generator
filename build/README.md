@@ -1,10 +1,10 @@
-# project name
+# Weather Dashboard
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Description
 
-description
+Web application to view the weather of any city around the world. Current weather as well as a 5 day forecast is displayed.
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ This project is licensed under the MIT License. To learn more visit
 To install dependencies use the following in the command line: 
 
 ```
-install
+npm install weather
 ```
 
 ## Tests
@@ -46,16 +46,16 @@ test
 ## Usage
 
 ```
-use the repo this way
+Type in the city in the search bar and press enter or click on the button. If you want to view previous searches, press on the dynamically created buttons.
 ```
 
 ## Contributing
 
-contribute
+Email me if you send a pull request.
 
-Check out my other repos at: <https://github.com/username>
+Check out my other repos at: <https://github.com/Pao1aG>
 
 ## Questions
 
-If you have any questions, please contact me at: email address
+If you have any questions, please contact me at: paolaagonzalezm@email.arizona.edu
   

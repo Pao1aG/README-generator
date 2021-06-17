@@ -33,7 +33,7 @@ const questions = [
         type: "list",
         message: "What kind of license should your project have?",
         name: "license",
-        choices: ["MIT", "APACHE 2.0", "GNU General Public License v3.0"],
+        choices: ["MIT", "Apache 2.0", "GNU GPL v3.0"],
     },
 
     {
@@ -66,12 +66,14 @@ function writeToFile() {
     //FUNCTION FOR INQUIRER PROMPT
     inquirer  
     .prompt(questions)
-    .then(function(data) {
-        console.log("USER:", data); //success
-        fs.writeFile("README.md", generateMarkdown(data), function(err) { //this function will create this file in this directory (if it doesn't already exist), and write content inside of generateMarkdown
+    .then(function(user) {
+        console.log("USER:", user); //success
+        fs.writeFile("README.md", generateMarkdown(user), function(err) { //this function will create this file in this directory (if it doesn't already exist), and write content inside of generateMarkdown
             console.log("File Written");
         });
+        console.log(user.license); //Registers correct license
     })
+    
 };
 
 writeToFile();
@@ -82,4 +84,4 @@ function init() {
 }
 
 // Function call to initialize app-----------------------
-init();
+// init();

@@ -69,14 +69,11 @@ function writeToFile() {
     .then(function(user) {
         console.log("USER:", user); //success
         fs.writeFile("./build/README.md", generateMarkdown(user), function(err) { //this function will create this file in this directory (if it doesn't already exist), and write content inside of generateMarkdown
-            console.log("File Written");
+            console.log("File Written. Please check the build folder");
         });
-        console.log(user.license); //Registers correct license
     })
     
 };
-
-// writeToFile();
  
 // TODO: Create a function to initialize app----------------------------
 function init() {

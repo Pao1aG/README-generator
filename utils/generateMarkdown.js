@@ -3,7 +3,6 @@ const fs = require("fs"); //to fs.writeFile
 // If there is no license, return an empty string
 //BADGES FOUND AT t.ly/92K9
 function renderLicenseBadge(data) {
-  console.log("I made it thru");
   console.log(data.license);
   if(data.license == "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
@@ -79,7 +78,7 @@ ${renderLicenseSection(data)}
 
 ## Installation
 
-To install dependencies use: 
+To install dependencies use the following in the command line: 
 
 \`\`\`
 ${data.dependencies}
@@ -95,7 +94,9 @@ ${data.tests}
 
 ## Usage
 
+\`\`\`
 ${data.repoUse}
+\`\`\`
 
 ## Contributing
 

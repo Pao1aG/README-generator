@@ -1,10 +1,10 @@
-# Hair Salon Webiste
+# project name
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Description
 
-This website is for a hairdresser to advertise her services and let her customers know how they can contact her for an appointment.
+description
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ This project is licensed under the MIT License. To learn more visit
 To install dependencies use the following in the command line: 
 
 ```
-
+install
 ```
 
 ## Tests
@@ -40,20 +40,22 @@ To install dependencies use the following in the command line:
 To test: 
 
 ```
-
+test
 ```
 
 ## Usage
 
 ```
-Contact me if you make a pull request. 
+use the repo this way
 ```
 
 ## Contributing
 
-Pull request
+contribute
+
+Check out my other repos at: <https://github.com/username>
 
 ## Questions
 
-If you have any questions, please contact me at: paolaagonzalezm@email.arizona.edu
+If you have any questions, please contact me at: email address
   

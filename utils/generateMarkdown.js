@@ -102,6 +102,8 @@ ${data.repoUse}
 
 ${data.repoContribute}
 
+Check out my other repos at: <https://github.com/${data.username}>
+
 ## Questions
 
 If you have any questions, please contact me at: ${data.email}

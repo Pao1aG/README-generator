@@ -18,6 +18,8 @@ This application is run with Node.js. Using the command line, a user can generat
 
 * [Questions](#questions)
 
+---
+
 ## License
 
 This project is licensed under the MIT License. To learn more visit  
@@ -43,11 +45,14 @@ node index.js
 
 The program will initialize and a series of questions will be presented to you. Once you have completed the prompts, a markdown file will be created. You can access this file in the 'build' folder.
 
+> For a demo of this application, [Watch Here]()
+
 ## Credits
 
 Badges were accessed from GitHub user [Lukas Himsel](https://gist.github.com/lukas-h)
 
-You can access their repo here: <https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba>
+
+You can access their Markdown License Badges md file here: <https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba>
 
 ## Questions
 
